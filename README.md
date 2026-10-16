@@ -7,11 +7,11 @@ A mobile-first, monochrome track-day logbook that can be hosted on GitHub Pages.
 - `index.html` — full app UI, forms, storage logic, comparisons and styling.
 - `manifest.webmanifest` — installable PWA metadata.
 - `sw.js` — app-shell caching for offline loading after the first successful visit.
-- `icon.svg` — monochrome stopwatch / circuit app icon.
+- `icon-192.png` and `icon-512.png` — app icons used by the manifest, page favicon and header. Both PNG files must be in the same folder as `index.html`.
 
 ## Publish on GitHub Pages
 
-1. Add all four files to the root of the repository (or keep them together in the configured Pages folder).
+1. Add `index.html`, `manifest.webmanifest`, `sw.js`, `icon-192.png` and `icon-512.png` to the root of the repository (or keep them together in the configured Pages folder).
 2. Commit and push.
 3. In GitHub, open **Settings → Pages** and enable deployment from the intended branch/folder.
 4. Open the published HTTPS URL once while online. Then use the browser menu to install/add it to the home screen.
