@@ -1,1 +1,15 @@
-
+{
+  "id": "./",
+  "name": "Track Log - Motorsport Logbook",
+  "short_name": "Track Log",
+  "description": "A personal track-day logbook for cars, circuits, lap times and setup notes.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#090909",
+  "theme_color": "#090909",
+  "icons": [
+    { "src": "./icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
